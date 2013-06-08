@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>SNSApi , 一个开源的社交网络Python SDK</title>
+	<link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+</head>
+<body>
+	<a href="https://github.com/you"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png" alt="Fork me on GitHub"></a>
+	<div class="container">
+
+		<div class="header">
+			<h1>榨干百度网盘计划</h1>
+		</div>
+		<div class="information">
+			<h2>What?</h2>
+			<p>
+			如果你自己写的App内有离线数据需要下载，但又像我一样一穷二白买不起类似又拍云的云存储服务。
+			</p>
+			<p>
+			那就跟我一起来<b>榨干百度网盘</b>吧！
+			</p>
+		</div>
+
+		<div class="information">
+			<h2>How?</h2>
+			<p>
+				计划步骤：
+				<ul>
+					<li>将目标文件上传到百度网盘，并且分享之</li>
+					<li>获取到链接中的ID和UK值</li>
+					<li>App内构造链接并且发送请求</li>
+					<li>接收JSON格式真实下载地址</li>
+					<li>开始下载吧！</li>
+				</ul>
+			</p>
+		</div>
+
+		<div class="information">
+			<h2>Support</h2>
+			<ul>
+				<li>百度网盘</li>
+				<li><a href="">来贡献更多？</a></li>
+			</ul>
+		</div>
+<!--Start code-->
+		<div class="information">
+			<h2>Demo</h2>
+			<ul>
+				<li>Step:1 提取链接中的id,uk
+				<br>如：
+				<a href="http://pan.baidu.com/share/link?shareid=445495&uk=2150962024">http://pan.baidu.com/share/link?shareid=445495&uk=2150962024</a> <br>
+				id = 445495 / uk = 2150962024
+				<br>
+				</li>
+				<li>tep:2 构造链接
+				<br>
+				http://daimajia.duapp.com/baidu/id/uk <br>
+				上面例子的id/uk填入，即： <a href="http://daimajia.duapp.com/baidu/445495/2150962024 ">http://daimajia.duapp.com/baidu/445495/2150962024 </a>
+				<br>
+				</li>
+				<li>Step3:程序中发送请求<br></li>
+				<li>Step4:获取Json格式真实地址</li>
+			</ul>
+		</div>
+<!--Start contact-->
+<div class="information">
+	<h2>Contact</h2>
+	<p>
+		最好的方式就是在
+		<a href="">GitHub</a>上 Star Fork Pull-Request，
+		当然也可以直接发邮件联系我：
+		<a href="mailto:daimajia@gmail.com">daimajia#gmail.com</a>
+	</p>
+</div>
+<!--End contact-->
+	</div>
+</body>
+</html>
