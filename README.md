@@ -33,6 +33,23 @@ bleed-baidu-white
 
 4	获取json中的真实下载地址
 
+###Demo
+
+Step:1 提取链接中的id,uk 
+
+如： http://pan.baidu.com/share/link?shareid=445495&uk=2150962024 
+
+id = 445495 / uk = 2150962024 
+
+Step:2 构造链接 
+http://daimajia.duapp.com/baidu/id/uk 
+
+上面例子的id/uk填入，即： [http://daimajia.duapp.com/baidu/445495/2150962024](http://daimajia.duapp.com/baidu/445495/2150962024)
+
+Step3:程序中发送请
+
+Step4:获取Json格式真实地址
+
 ###还在犹豫什么？投入使用吧！
 
 ###关于我：
