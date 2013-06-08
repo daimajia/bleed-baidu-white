@@ -1,0 +1,87 @@
+
+body{
+	background-image:url(../img/bg-main.png);
+	background-color: #2D3743;
+	font-family: "PT Sans" !important;
+	margin: 0;
+	font-size: 110%;
+	padding: 0;
+	padding-bottom: 40px;
+}
+
+a:visited {
+color: #1BA9D4;
+}
+a {
+color: #1BA9D4;
+text-decoration: underline;
+cursor: pointer;
+}
+a:hover{
+	color:#00e;
+}
+
+::selection { background: #eb5f3a; color: #fff; text-shadow: none; }
+
+.github{
+	position: fixed;
+	right: 0;
+	top:0;
+}
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+.header{
+	margin-top: 30px;
+	height: auto;
+	width: 100%;
+}
+
+.header h1{
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+}
+
+.information{
+	margin-top: 40px;
+}
+
+.information h2{
+	font:italic bold 100% Georgia, serif;
+	text-shadow: 0 -1px black, 0 -2px #222;
+	text-shadow: rgba(0, 0, 0, 0.7) 0 -1px, rgba(0, 0, 0, 0.3) 0 -2px;
+	padding-bottom: 10px;
+	font-size: 180%;
+	margin-bottom:20px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0 1px, rgba(0, 0, 0, 0.01) 0 2px;
+	color:#fff;
+}
+
+.information p,.information ul li{
+	font-size: 80%;
+	color: #fff;
+}
+.information p{
+	text-indent: 22px;
+}
+.information ul li{
+	padding-top:5px;
+}
+
+.information .syntax{
+	background: rgba(0,0,0,0.3);
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 20px;
+	padding-left: 50px;
+	border-radius: 10px;
+}
+.syntax .pre{
+	background: rgba(0,0,0,0.5);
+}
+
+
+
