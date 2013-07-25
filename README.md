@@ -55,7 +55,7 @@ Step4:获取Json格式真实地址
 ###关于我：
 我是个学生，酷爱开发，擅长Android、php、python、nodejs、web，如果您手头有适合我的实习机会，欢迎邮件联系我:  [daimajia#gmail.com](mailto:daimajia@gmail.com)
 
-*	[西北大学](http://zh.wikipedia.org/wiki/%E8%A5%BF%E5%8C%97%E5%A4%A7%E5%AD%A6_(%E4%B8%AD%E5%9B%BD)
+*	[西北大学](http://zh.wikipedia.org/wiki/%E8%A5%BF%E5%8C%97%E5%A4%A7%E5%AD%A6_\(%E4%B8%AD%E5%9B%BD\))
 *	北京师范大学
 *	我的站点: [Daimajia](http://www.zhan-dui.com)
 *	我的微博:[代码家](http://weibo.com/daimajia)
