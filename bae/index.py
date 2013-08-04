@@ -13,7 +13,6 @@ def hello():
 @app.route('/baidu/<id>/<uk>')
 def baidu(id,uk):
 	import urllib,urllib2
-	from bs4 import BeautifulSoup
 	from flask import jsonify
 	app.logger.warning('Request id:'+id)
 	app.logger.warning('Request uk:'+uk)
@@ -23,23 +22,24 @@ def baidu(id,uk):
 	}
 	request = urllib2.Request(url= url,headers = header)
 	html_code = urllib2.urlopen(request).read()
-	soup = BeautifulSoup(html_code)
-	results = soup.find_all('a',attrs={"class": "new-dbtn"})
-
-	for result in results:
+	import re
+	match = re.search(r'dlink\\.+?(http.+?)\\"',html_code,re.MULTILINE)
+	if(match):
 		return jsonify(
 				id=id,
 				uk=uk,
 				error=False,
-				link=result.get('href'),
+				link=match.group(1),
 				type='baidu'
 			)
-	return jsonify(
+	else:
+		return jsonify(
 			id=id,
 			uk=uk,
 			error=True,
 			type='baidu'
 		)
+
  
 from bae.core.wsgi import WSGIApplication
 application = WSGIApplication(app)
