@@ -21,7 +21,7 @@ bleed-baidu-white
 
 
 ###部署
-系统已经部署到 [http://daimajia.duapp.com](http://daimajia.duapp.com)
+系统已经部署到 [http://daimajia.duapp.com](http://daimajia.duapp.com)，并且长期提供稳定服务，欢迎大家使用。
 
 ###用法
 
@@ -33,15 +33,15 @@ bleed-baidu-white
 
 4	获取json中的真实下载地址
 
-###Demo
+###用法-1
 
-Step:1 提取链接中的id,uk 
+Step1： 提取链接中的id,uk 
 
 如： http://pan.baidu.com/share/link?shareid=445495&uk=2150962024 
 
 id = 445495 / uk = 2150962024 
 
-Step:2 构造链接 
+Step2： 构造链接 
 http://daimajia.duapp.com/baidu/id/uk 
 
 上面例子的id/uk填入，即： [http://daimajia.duapp.com/baidu/445495/2150962024](http://daimajia.duapp.com/baidu/445495/2150962024)
@@ -49,6 +49,18 @@ http://daimajia.duapp.com/baidu/id/uk
 Step3:程序中发送请
 
 Step4:获取Json格式真实地址
+
+###用法-2
+
+Step1：获取百度网盘分享链接
+
+如：http://pan.baidu.com/share/link?shareid=445495&uk=2150962024 
+
+Step2: 构造请求链接
+
+[http://daimajia.duapp.com/baidu/?url=http://pan.baidu.com/share/link?shareid=445495&uk=2150962024](http://daimajia.duapp.com/baidu/?url=http://pan.baidu.com/share/link?shareid=445495&uk=2150962024)
+
+Step3:发送请求，获取含真实地址的JSON数据。
 
 ###还在犹豫什么？投入使用吧！
 
