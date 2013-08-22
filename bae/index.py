@@ -10,7 +10,7 @@ def hello_world():
 def getDownloadLink(url):
 	import re
 	from flask import jsonify
-	match = re.search(r'http:\/\/pan.baidu.com\/share\/link\?shareid=(\d+)&uk=(\d+)',url)
+	match = re.search(r'http:\/\/(?:pan|yun).baidu.com\/share\/link\?shareid=(\d+)&uk=(\d+)',url)
 	if(match):
 		import urllib,urllib2
 		id = match.group(1)

@@ -1,6 +1,10 @@
 bleed-baidu-white
 ==================
 
+###更新说明：
+
+*	2013-08-22：开始支持[yun.baidu.com](http://yun.baidu.com)链接
+
 ###榨干百度网盘计划
 
 如果你自己写的App内有离线数据需要下载，但又像我一样一穷二白买不起类似又拍云的云存储服务。
@@ -23,15 +27,6 @@ bleed-baidu-white
 ###部署
 系统已经部署到 [http://daimajia.duapp.com](http://daimajia.duapp.com)，并且长期提供稳定服务，欢迎大家使用。
 
-###用法
-
-1	提取分享链接中的 id 和 uk
-
-2	构造请求链接： http://daimajia.duapp.com/$id/$uk
-
-3	请求地址，获取json格式返回数据
-
-4	获取json中的真实下载地址
 
 ###用法-1
 
