@@ -66,7 +66,7 @@ Step3:发送请求，获取含真实地址的JSON数据。
 *	北京师范大学
 *	我的站点: [Daimajia](http://www.zhan-dui.com)
 *	我的微博:[代码家](http://weibo.com/daimajia)
-*	Twitter:[LinHuiwen](http://twitter.com/LinHuiwen)
+*	Twitter:[daimajia](http://twitter.com/daimajia)
 *	Instagram:[daimajia](http://instagram.com/daimajia)
 
 你也可以留意[我的Android项目](https://github.com/xuanqinanhai/little-bear-dictionary)
