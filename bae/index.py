@@ -20,16 +20,33 @@ def getDownloadLink(url):
 		}
 		request = urllib2.Request(url = url, headers = header)
 		html_code = urllib2.urlopen(request).read()
-		match = re.search(r'dlink\\.+?(http.+?)\\"',html_code,re.MULTILINE)
-		if(match):
-			return jsonify(
-					url = url,
-					id=id,
-					uk=uk,
-					error=False,
-					link=match.group(1),
-					type='baidu'
+
+		#"md5\":\"88296788f23f16396e05e75a037bac00\"
+		md5_match = re.search(r'"md5\\":\\\"(.+?)\\"',html_code)
+
+		if(md5_match):
+			md5 = md5_match.group(1)
+			#dlink\\":.+?(http.+?88296788f23f16396e05e75a037bac00\?.+?sh=1)
+			reg = 'dlink\\\\":.+?(http.+?' + md5 + '\?.+?sh=1)'
+			print reg;
+			match = re.search(reg,html_code,re.MULTILINE)
+			if(match):
+				return jsonify(
+						url = url,
+						id=id,
+						uk=uk,
+						error=False,
+						link=match.group(1).replace("\\",""),
+						type='baidu'
 				)
+			else:
+				return jsonify(
+						url=url,
+						id=id,
+						uk=uk,
+						error=True,
+						type="baidu"
+					)
 		else:
 			return jsonify(
 				url = url,
@@ -41,6 +58,8 @@ def getDownloadLink(url):
 	else:
 		return jsonify(
 				url = url,
+				id=id,
+				uk=uk,
 				error = True,
 				type = 'baidu',
 			)
