@@ -3,6 +3,7 @@ bleed-baidu-white
 
 ###更新说明：
 
+* 2013-11-22: 开始应对百度最新变化，支持百度短地址，如：[http://pan.baidu.com/s/17Wq4K](http://pan.baidu.com/s/17Wq4K)
 *	2013-08-22：开始支持[yun.baidu.com](http://yun.baidu.com)链接
 
 ###榨干百度网盘计划
@@ -15,7 +16,7 @@ bleed-baidu-white
 
 1	将目标文件上传到百度网盘，并且分享之
 
-2	获取到链接中的ID和UK值
+2	获取分享链接
 
 3	App内构造链接并且发送请求
 
@@ -27,33 +28,15 @@ bleed-baidu-white
 ###部署
 系统已经部署到 [http://daimajia.duapp.com](http://daimajia.duapp.com)，并且长期提供稳定服务，欢迎大家使用。
 
-
-###用法-1
-
-Step1： 提取链接中的id,uk 
-
-如： http://pan.baidu.com/share/link?shareid=445495&uk=2150962024 
-
-id = 445495 / uk = 2150962024 
-
-Step2： 构造链接 
-http://daimajia.duapp.com/baidu/id/uk 
-
-上面例子的id/uk填入，即： [http://daimajia.duapp.com/baidu/445495/2150962024](http://daimajia.duapp.com/baidu/445495/2150962024)
-
-Step3:程序中发送请
-
-Step4:获取Json格式真实地址
-
-###用法-2
+###用法
 
 Step1：获取百度网盘分享链接
 
-如：http://pan.baidu.com/share/link?shareid=445495&uk=2150962024 
+如：http://pan.baidu.com/s/17Wq4K
 
 Step2: 构造请求链接
 
-[http://daimajia.duapp.com/baidu/?url=http://pan.baidu.com/share/link?shareid=445495&uk=2150962024](http://daimajia.duapp.com/baidu/?url=http://pan.baidu.com/share/link?shareid=445495&uk=2150962024)
+[http://daimajia.duapp.com/baidu/?url=http://pan.baidu.com/s/17Wq4K](http://daimajia.duapp.com/baidu/?url=http://pan.baidu.com/s/17Wq4K)
 
 Step3:发送请求，获取含真实地址的JSON数据。
 
