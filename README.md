@@ -53,5 +53,9 @@ Step3:发送请求，获取含真实地址的JSON数据。
 *	Twitter:[daimajia](http://twitter.com/daimajia)
 *	Instagram:[daimajia](http://instagram.com/daimajia)
 
-你也可以留意[我的Android项目](https://github.com/xuanqinanhai/little-bear-dictionary)
+你也可以留意我的其他项目：
+
+*	[AnimeTaste](https://github.com/daimajia/AnimeTaste/)
+*	[EverMemo](https://github.com/daimajia/EverMemo)
+*	[Revenge](https://github.com/daimajia/revenge)
 
