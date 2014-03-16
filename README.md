@@ -3,7 +3,8 @@ bleed-baidu-white
 
 ###更新说明：
 
-* 2013-11-22: 开始应对百度最新变化，支持百度短地址，如：[http://pan.baidu.com/s/17Wq4K](http://pan.baidu.com/s/17Wq4K)
+*   2014-03-16：加入文件大小属性
+*   2013-11-22：开始应对百度最新变化，支持百度短地址，如：[http://pan.baidu.com/s/17Wq4K](http://pan.baidu.com/s/17Wq4K)
 *	2013-08-22：开始支持[yun.baidu.com](http://yun.baidu.com)链接
 
 ###榨干百度网盘计划
