@@ -3,6 +3,7 @@ bleed-baidu-white
 
 ###更新说明：
 
+*	2014-03-22：新增两种链接类型	
 *   2014-03-16：加入文件大小属性
 *   2013-11-22：开始应对百度最新变化，支持百度短地址，如：[http://pan.baidu.com/s/17Wq4K](http://pan.baidu.com/s/17Wq4K)
 *	2013-08-22：开始支持[yun.baidu.com](http://yun.baidu.com)链接
@@ -41,10 +42,18 @@ Step2: 构造请求链接
 
 Step3:发送请求，获取含真实地址的JSON数据。
 
+###链接类型
+
+<http://pan.baidu.com/s/17Wq4K> [尝试](http://daimajia.duapp.com/baidu/?url=http://pan.baidu.com/s/17Wq4K)
+
+<http://pan.baidu.com/share/link?shareid=60665&uk=3960800092> [尝试](http://daimajia.duapp.com/baidu/?url=http://pan.baidu.com/share/link?shareid=60665&uk=3960800092)
+
+<http://pan.baidu.com/share/link?shareid=1938327270&uk=2855000475&fid=2233423979> [尝试](http://daimajia.duapp.com/baidu/?url=http://pan.baidu.com/share/link?shareid=1938327270&uk=2855000475&fid=2233423979)
+
 ###还在犹豫什么？投入使用吧！
 
 ###关于我：
-我是个学生，酷爱开发，擅长Android、php、python、nodejs、web，如果您手头有适合我的实习机会，欢迎邮件联系我:  [daimajia#gmail.com](mailto:daimajia@gmail.com)
+我是个学生，酷爱开发，擅长Android、php、python、nodejs、web，欢迎各种实习扫射:  [daimajia#gmail.com](mailto:daimajia@gmail.com)
 
 *	[西北大学](http://zh.wikipedia.org/wiki/%E8%A5%BF%E5%8C%97%E5%A4%A7%E5%AD%A6_\(%E4%B8%AD%E5%9B%BD\))
 *	北京师范大学
