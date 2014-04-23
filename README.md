@@ -5,7 +5,7 @@ bleed-baidu-white
 
 *	2014-03-22：新增两种链接类型	
 *   2014-03-16：加入文件大小属性
-*   2013-11-22：开始应对百度最新变化，支持百度短地址，如：[http://pan.baidu.com/s/17Wq4K](http://pan.baidu.com/s/17Wq4K)
+*   2013-11-22：开始应对百度最新变化，支持百度短地址，如：[http://pan.baidu.com/s/1mgK7dQ4](http://pan.baidu.com/s/1mgK7dQ4)
 *	2013-08-22：开始支持[yun.baidu.com](http://yun.baidu.com)链接
 
 ###榨干百度网盘计划
@@ -34,17 +34,17 @@ bleed-baidu-white
 
 Step1：获取百度网盘分享链接
 
-如：http://pan.baidu.com/s/17Wq4K
+如：<http://pan.baidu.com/s/17Wq4K>
 
 Step2: 构造请求链接
 
-[http://daimajia.duapp.com/baidu/?url=http://pan.baidu.com/s/17Wq4K](http://daimajia.duapp.com/baidu/?url=http://pan.baidu.com/s/17Wq4K)
+<http://daimajia.duapp.com/baidu/?url=http://pan.baidu.com/s/1mgK7dQ4>
 
 Step3:发送请求，获取含真实地址的JSON数据。
 
 ###链接类型
 
-<http://pan.baidu.com/s/17Wq4K> [尝试](http://daimajia.duapp.com/baidu/?url=http://pan.baidu.com/s/17Wq4K)
+<http://pan.baidu.com/s/1mgK7dQ4> [尝试](http://daimajia.duapp.com/baidu/?url=http://pan.baidu.com/s/1mgK7dQ4)
 
 <http://pan.baidu.com/share/link?shareid=60665&uk=3960800092> [尝试](http://daimajia.duapp.com/baidu/?url=http://pan.baidu.com/share/link?shareid=60665&uk=3960800092)
 
