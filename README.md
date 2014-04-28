@@ -34,17 +34,17 @@ bleed-baidu-white
 
 Step1：获取百度网盘分享链接
 
-如：<http://pan.baidu.com/s/17Wq4K>
+如：<http://pan.baidu.com/s/1bn7tXHd>
 
 Step2: 构造请求链接
 
-<http://daimajia.duapp.com/baidu/?url=http://pan.baidu.com/s/1mgK7dQ4>
+<http://daimajia.duapp.com/baidu/?url=http://pan.baidu.com/s/1bn7tXHd>
 
 Step3:发送请求，获取含真实地址的JSON数据。
 
 ###链接类型
 
-<http://pan.baidu.com/s/1mgK7dQ4> [尝试](http://daimajia.duapp.com/baidu/?url=http://pan.baidu.com/s/1mgK7dQ4)
+<http://pan.baidu.com/s/1bn7tXHd> [尝试](http://daimajia.duapp.com/baidu/?url=http://pan.baidu.com/s/1bn7tXHd)
 
 <http://pan.baidu.com/share/link?shareid=60665&uk=3960800092> [尝试](http://daimajia.duapp.com/baidu/?url=http://pan.baidu.com/share/link?shareid=60665&uk=3960800092)
 
@@ -67,4 +67,5 @@ Step3:发送请求，获取含真实地址的JSON数据。
 *	[AnimeTaste](https://github.com/daimajia/AnimeTaste/)
 *	[EverMemo](https://github.com/daimajia/EverMemo)
 *	[Revenge](https://github.com/daimajia/revenge)
+
 
